@@ -26,6 +26,6 @@ $config['base_url'] = 'http://localhost/codeigniter-quickstart/';
  - Bower included
 
 ## Documentation
- - You can read documentation in official website [codeigniter](https://codeigniter.com/docs)
+ You can read documentation in official website [codeigniter](https://codeigniter.com/docs)
 
- I hope you enjoy with this simple boilerplate
+ I hope you enjoy with this simple boilerplate :heart_eyes:
