@@ -1,1 +1,1 @@
-<h1>Ini Ikan<i class="em em-fish"></i></h1>
+<h1 class="text-center text-primary">Ini Ikan<i class="em em-fish"></i></h1>

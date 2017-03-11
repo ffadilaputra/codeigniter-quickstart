@@ -1,1 +1,1 @@
-<h1>Ini Sapi<i class="em em-cow"></i></h1>
+<h1 class="text-center text-primary">Ini Sapi<i class="em em-cow"></i></h1>
