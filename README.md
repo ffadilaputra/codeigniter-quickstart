@@ -8,6 +8,18 @@ extract the file and put to your htdocs or var/www folder or use this command
 git clone https://github.com/ffadilaputra/codeigniter-quickstart.git 
 ```
 
+### Requirment
+
+[nodeJS](https://github.com/creationix/nvm)
+
+[Bower](https://bower.io/)
+
+[Xampp](https://www.apachefriends.org/index.html)
+
+[Text Editor](http://www.vim.org/download.php)
+
+nvm recomended for version manager of nodejs
+
 ### Configure 
 go config/config.php and then update this code and make sure the url
 ```
@@ -17,6 +29,12 @@ $config['base_url'] = '';
 Example
 ```
 $config['base_url'] = 'http://localhost/codeigniter-quickstart/';
+
+```
+### Install Dependency
+To install dependency ui framework you must install [bower](https://bower.io/) first and then type : 
+```
+bower install 
 ```
 
 ## What's Inside ?
@@ -26,6 +44,6 @@ $config['base_url'] = 'http://localhost/codeigniter-quickstart/';
  - Bower included
 
 ## Documentation
- You can read documentation in official website [codeigniter](https://codeigniter.com/docs)
+ You can read documentation codeigniter in official website [codeigniter](https://codeigniter.com/docs)
 
  I hope you enjoy with this simple boilerplate :heart_eyes:
