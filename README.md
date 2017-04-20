@@ -20,17 +20,13 @@ git clone https://github.com/ffadilaputra/codeigniter-quickstart.git
 
 nvm recomended for version manager of nodejs
 
-### Configure 
-go config/config.php and then update this code and make sure the url
-```
-$config['base_url'] = '';
 
-```
 Example
 ```
 $config['base_url'] = 'http://localhost/codeigniter-quickstart/';
 
 ```
+
 ### Install Dependency
 To install dependency ui framework you must install [bower](https://bower.io/) first and then type : 
 ```
