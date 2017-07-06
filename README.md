@@ -20,13 +20,6 @@ git clone https://github.com/ffadilaputra/codeigniter-quickstart.git
 
 nvm recomended for version manager of nodejs
 
-
-Example
-```
-$config['base_url'] = 'http://localhost/codeigniter-quickstart/';
-
-```
-
 ### Install Dependency
 To install dependency ui framework you must install [bower](https://bower.io/) first and then type : 
 ```
