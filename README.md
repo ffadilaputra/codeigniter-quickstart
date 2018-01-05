@@ -14,7 +14,7 @@ git clone https://github.com/ffadilaputra/codeigniter-quickstart.git
 
 [Bower](https://bower.io/)
 
-[Xampp](https://www.apachefriends.org/index.html)
+[MySQL]()
 
 [Text Editor](http://www.vim.org/download.php)
 
@@ -30,7 +30,8 @@ bower install
  - [Bootstrap](http://getbootstrap.com/)
  - [jQuery](https://jquery.com/)
  - No More use index.php in your URL
- - Bower included
+ - Bower 
+ - Composer 
 
 ## Documentation
  You can read documentation codeigniter in official website [codeigniter](https://codeigniter.com/docs)
