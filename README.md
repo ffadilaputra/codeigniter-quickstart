@@ -20,11 +20,19 @@ git clone https://github.com/ffadilaputra/codeigniter-quickstart.git
 
 nvm recomended for version manager of nodejs
 
-### Install Dependency
+### Install Dependency Frontend
 To install dependency ui framework you must install [bower](https://bower.io/) first and then type : 
 ```
 bower install 
 ```
+
+### Install Dependency PHP
+To install dependency ui framework you must install [composer](https://getcomposer.org/) first and then type : 
+```
+composer install
+```
+
+For more library [here](https://packagist.org/)
 
 ## What's Inside ?
  - [Bootstrap](http://getbootstrap.com/)
