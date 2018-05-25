@@ -43,7 +43,7 @@ if (!isset($_SERVER['ORIG_SCRIPT_NAME'])){
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

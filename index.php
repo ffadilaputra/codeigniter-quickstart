@@ -305,11 +305,24 @@ switch (ENVIRONMENT)
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
 
-/*
- * --------------------------------------------------------------------
- * LOAD THE BOOTSTRAP FILE
- * --------------------------------------------------------------------
- *
- * And away we go...
- */
-require_once BASEPATH.'core/CodeIgniter.php';
+	/*
+	 * --------------------------------------------------------------------
+	 * LOAD PHP DOT ENV FILE
+	 * --------------------------------------------------------------------
+	 *
+	 * And away we go...
+	 *
+	 */
+	require_once BASEPATH . 'dotenv/autoloader.php';
+	
+	$dotenv = new Dotenv\Dotenv(__DIR__);
+	$dotenv->load();
+
+	/*
+	* --------------------------------------------------------------------
+	* LOAD THE BOOTSTRAP FILE
+	* --------------------------------------------------------------------
+	*
+	* And away we go...
+	*/
+	require_once BASEPATH.'core/CodeIgniter.php';

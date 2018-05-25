@@ -8,6 +8,17 @@ extract the file and put to your htdocs or var/www folder or use this command
 git clone https://github.com/ffadilaputra/codeigniter-quickstart.git 
 ```
 
+### Setup
+setup your configuration in .env.development file
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_DATABASE=database
+DB_USERNAME=root
+DB_PASSWORD=root
+
+```
+
 ### Requirment
 
 [nodeJS](https://github.com/creationix/nvm)
