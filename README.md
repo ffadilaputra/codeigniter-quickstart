@@ -25,7 +25,7 @@ DB_PASSWORD=root
 
 [Bower](https://bower.io/)
 
-[MySQL]()
+[MySQL](https://www.mysql.com/)
 
 [Text Editor](http://www.vim.org/download.php)
 
